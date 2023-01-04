@@ -8,6 +8,7 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
+      <h1>Welcome to the react Router -> ami Header  </h1>
       <Routes>
 
         <Route path='/' element={<Home/>}></Route>
@@ -16,7 +17,7 @@ function App() {
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
     
-
+    <p>Ami footer tai amar tension nai </p>
     </div>
   );
 }
