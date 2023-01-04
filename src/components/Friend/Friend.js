@@ -7,7 +7,7 @@ const Friend = ({user}) => {
 
     const handleFriend=(id)=>{
 
-      const path = `/about/`+id ;
+      const path = `/friend/`+id ;
     //   console.log('Path is ',path);
       navigate(path);
     }
