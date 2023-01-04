@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.activeClassName2{
+ color: blueviolet;
+ text-decoration: none;
+}
+
+.activeClassName5{
+  color: aqua;
+  text-decoration: dashed;
+}
